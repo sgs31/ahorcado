@@ -7,7 +7,7 @@ import java.awt.Font;
 import javax.swing.border.MatteBorder;
 
 public class LetraAhorcado extends JLabel {
-	
+	//
 	private String letra;
 	
 	public LetraAhorcado(String letra) {

@@ -146,7 +146,7 @@ public class Ahorcado {
 	public String getNombreJugador() {
 		return jugador.getNombre();
 	}
-
+	//
 	public int getIntentosRestantesJugador() {
 		return this.jugador.getIntentos();
 	}

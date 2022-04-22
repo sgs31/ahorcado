@@ -23,7 +23,7 @@ public class Menu {
 	private JFrame frmAhorcado;
 	private Configuracion config = new Configuracion();
 	private Juego ahorcado;
-
+	//
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {

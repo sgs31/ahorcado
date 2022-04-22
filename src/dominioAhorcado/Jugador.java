@@ -1,7 +1,7 @@
 package dominioAhorcado;
 
 public class Jugador {
-	// Atributos
+	// Atributo
 		String nombre;
 		int intentos = 5;
 

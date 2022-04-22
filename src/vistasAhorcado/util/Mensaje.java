@@ -3,7 +3,7 @@ package vistasAhorcado.util;
 import java.util.Random;
 
 public class Mensaje {
-	
+	//
 	public static String getMensajePositivo() {
 		
 		String[] mensajesPositivos = {"Bien hecho!", "Ya casi", "Un paso mas..", "Dale que se salva"};

@@ -28,7 +28,7 @@ public class Configuracion extends JFrame {
 	private String dificultad;
 	private String idioma;
 	private String nombreJugador;
-
+	//
 	public Configuracion() {
 		setResizable(false);
 		setIconImage(Toolkit.getDefaultToolkit().getImage(Configuracion.class.getResource("/vistasAhorcado/img/config-icon.png")));

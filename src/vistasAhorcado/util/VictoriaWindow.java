@@ -15,7 +15,7 @@ import java.awt.Toolkit;
 public class VictoriaWindow extends JFrame {
 
 	private JPanel contentPane;
-
+	//
 	public VictoriaWindow(String nombre) {
 		setIconImage(Toolkit.getDefaultToolkit().getImage(VictoriaWindow.class.getResource("/vistasAhorcado/img/rope-icon2.png")));
 		setTitle("VICTORIA");
