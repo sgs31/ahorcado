@@ -30,6 +30,5 @@ public class LetraAhorcado extends JLabel {
 	
 	public void ocultar() {
 		this.setText("");
-	}
-	
+	}	
 }

@@ -4,7 +4,6 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-//
 import java.awt.Color;
 import java.awt.Font;
 import java.util.ArrayList;
@@ -182,8 +181,7 @@ public class Juego {
 					LetraAhorcado temp = (LetraAhorcado) letrasOcultasContainer.getComponent(posicion);
 					temp.mostrar();
 				}
-			}
-			
+			}		
 		});
 		inputLetra.setFocusCycleRoot(true);
 		inputLetra.setHorizontalAlignment(SwingConstants.CENTER);
@@ -192,9 +190,6 @@ public class Juego {
 		inputLetra.setBounds(241, 254, 86, 78);
 		frmAhorcado.getContentPane().add(inputLetra);
 		inputLetra.setColumns(10);
-		
-		
-	
 	}
 	
 	private List<String> getLetrasOcultas(String palabra) {

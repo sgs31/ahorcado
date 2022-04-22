@@ -1,13 +1,11 @@
 package dominioAhorcado;
 
 import static org.junit.Assert.*;
-
 import java.util.ArrayList;
-
 import org.junit.Test;
 
 class AhorcadoTest {
-	//
+
 	@Test
 	public void crearListaTest() {
 
@@ -153,5 +151,4 @@ class AhorcadoTest {
 		assertEquals(0,juego.getIntentosRestantesJugador());
 		assertEquals("perdio", juego.chequearEstadoDeJuego());
 	}
-
 }

@@ -11,7 +11,7 @@ import java.awt.Toolkit;
 public class ErrorWindow extends JFrame {
 
 	private JPanel contentPane;
-	//
+
 	public ErrorWindow(String titulo, String mensaje) {
 		setIconImage(Toolkit.getDefaultToolkit().getImage(ErrorWindow.class.getResource("/vistasAhorcado/img/error-icon.png")));
 		setTitle(titulo);
@@ -29,5 +29,4 @@ public class ErrorWindow extends JFrame {
 		mensajeLabel.setBounds(0, 0, 434, 95);
 		contentPane.add(mensajeLabel);
 	}
-
 }

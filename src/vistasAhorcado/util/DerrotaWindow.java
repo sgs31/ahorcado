@@ -15,7 +15,7 @@ import java.awt.Toolkit;
 public class DerrotaWindow extends JFrame {
 
 	private JPanel contentPane;
-	//
+	
 	public DerrotaWindow(String palabra) {
 		setIconImage(Toolkit.getDefaultToolkit().getImage(DerrotaWindow.class.getResource("/vistasAhorcado/img/rope-icon2.png")));
 		setTitle("DERROTA");
